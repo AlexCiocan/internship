@@ -1,0 +1,18 @@
+<aspectj>
+<aspects>
+<aspect name="com.roo.domain.Book_Roo_Jpa_Entity"/>
+<aspect name="com.roo.domain.Author_Roo_ToString"/>
+<aspect name="com.roo.domain.Book_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.roo.domain.Author_Roo_Configurable"/>
+<aspect name="com.roo.domain.Book_Roo_ToString"/>
+<aspect name="com.roo.domain.Book_Roo_Configurable"/>
+<aspect name="com.roo.domain.Author_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.roo.domain.Book_Roo_JavaBean"/>
+<aspect name="com.roo.web.BookController_Roo_Controller"/>
+<aspect name="com.roo.domain.Author_Roo_JavaBean"/>
+<aspect name="com.roo.web.AuthorController_Roo_Controller"/>
+<aspect name="com.roo.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.roo.domain.Author_Roo_Jpa_Entity"/>
+</aspects>
+</aspectj>
+

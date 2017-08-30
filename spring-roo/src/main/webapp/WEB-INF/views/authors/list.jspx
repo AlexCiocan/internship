@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_roo_domain_Author" items="${authors}" z="5OtQX+Nc/PTCJ4q6M2Gs3Emi4UU=">
+        <table:table data="${authors}" id="l_com_roo_domain_Author" path="/authors" typeIdFieldName="id_" z="fk+/DTFT1Yqgnhl/g0zgDrKAnfQ=">
+            <table:column id="c_com_roo_domain_Author_lastName" property="lastName" z="tIRtO3WuTP0RAJlf7sCxUaBXCak="/>
+            <table:column id="c_com_roo_domain_Author_firstName" property="firstName" z="ElyLayAhf8rkP28Lzxq9tdGuSdg="/>
+            <table:column date="true" dateTimePattern="${author_birthdate_date_format}" id="c_com_roo_domain_Author_birthDate" property="birthDate" z="se28/pHYFkFStb4m/HbwHQ0YjCg="/>
+            <table:column id="c_com_roo_domain_Author_author_id" property="author_id" z="KWJlny5khugNX6fIj8nJW4Tw6Ms="/>
+            <table:column id="c_com_roo_domain_Author_id" property="id" z="hiGgkpU+vUTOyoX8SAoxrnR1Zhg="/>
+        </table:table>
+    </page:list>
+</div>
