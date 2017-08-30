@@ -1,0 +1,3 @@
+[submodule "maps_temperature"]
+	path = maps_temperature
+	url = git@github.com:AlexCiocan/maps_temperature.git
